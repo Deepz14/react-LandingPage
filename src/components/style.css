@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.landingpg{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+/* carousel */
+#carouselExampleIndicators{
+    position: absolute;
+    z-index: -1;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.carousel-indicators{
+    position: relative;
+    max-width: 10em;
+    margin-left: 140px !important;
+    margin-bottom: 200px !important;
+}
+.carousel-indicators li{
+    border-radius: 75%;
+    padding: 10px 0;
+}
+.carousel-indicators .active{
+    background-color: yellow;
+}
+/* carousel */
+
+/* navbar */
+.navbar{
+    background-color: transparent;
+}
+.navbar-container{
+    border-bottom: 1px solid white;
+}
+.navbar-brand{
+    cursor: pointer;
+}
+.navbar-nav{
+    margin-left: auto;
+    width: 60%;
+    justify-content: space-between;
+}
+.nav-link{
+    color: white !important;
+    cursor: pointer;
+}
+svg{
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+}
+/* navbar */
+
+/* content */
+.content{
+    padding: 45px 0;
+    margin-top: 75px !important;
+}
+.description{
+    max-width: 500px;
+}
+.explore-btn{
+    padding: 10px 55px !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+/* content */
